@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Apresentacao from './componentes/Apresentacao';
 import Frases from './componentes/Frases';
@@ -9,10 +9,14 @@ import Continua from './componentes/Continua';
 import Item from './componentes/Item';
 import Evento from './componentes/Evento';
 import Form from './componentes/Form';
+import ListaReact from './componentes/ListasReact';
+
 
 
 
 function App() {
+  
+
   const name = "Gleiton";
   const lastName = "Aparecido Soares de Souza";
   const nomeCompleto = `${name} ${lastName}`;
@@ -26,6 +30,7 @@ function App() {
 
 
     <div className="App">
+      <ListaReact />
       <Frases />
       <Form />
       <h1>Meu Projeto</h1>
