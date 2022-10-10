@@ -79,6 +79,14 @@ const HeaderCurriculo = () => {
                             <p>Site: gleiton.com.br</p>
                             </div>
                         </a>
+                        <a href="./imagens/Gleiton - gleiton.com.br - Curriculo.pdf"
+                        target="_blank"
+                        rel='noopener noreferrer'>
+                            <div className={styles.Isociais}>
+                            <i class="bi bi-cloud-download-fill"></i>
+                            <p>Clique aqui para baixar este currículo</p>
+                            </div>
+                        </a>
 
                         <a href="https://api.whatsapp.com/send?phone=5551980652808&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20Gleiton Soares."
                         target="_blank"

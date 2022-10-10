@@ -13,8 +13,8 @@ body {
 }
 .papel {
   background: url(/public/imagens/papel-fino-gleiton-aparecido-soares-de-souza-min.jpg);
-  width: 60%;
-  margin: 1em auto;
+  width: 70%;
+  margin: auto;
 }
 .fundoVidro {
   
@@ -39,6 +39,14 @@ body {
 }
 .topicoDivE {
   background-color: rgba(190, 217, 255, 0.215);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.topicoDivD {
+  background-color: rgba(252, 160, 157, 0.215);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding: 10px;
