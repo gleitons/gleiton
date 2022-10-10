@@ -21,7 +21,7 @@ const HeaderCurriculo = () => {
                     <a href="#inicio" rel='noopener noreferrer'>
                             <div className={styles.Isociais}>
                             <i class="bi bi-flag-fill"></i>
-                            <p>Brasileiro, solteiro, 33 anos</p>
+                            <p>Brasileiro, solteiro, 32 anos</p>
                             </div>
                     </a>
                     
