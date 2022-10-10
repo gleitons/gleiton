@@ -4,10 +4,22 @@ const Objetivo = () => {
     return (
         <div className={styles.corpoDesc}>
             <h2>OBJETIVO</h2>
-            <p className={styles.pDesc}>Objetivo de atuação na área administrativa, financeira, contábil ou TI, desenvolvendo e agregando conhecimento de todas as habilidades adquiridas ao longo de minha jornada profissional. Sempre disposto a receber conhecimento da organização que eu venha a me ingressar. Tenho interesse de construir uma carreira de sucesso, dessa forma contribuir para que a empresa alcance seus objetivos através do meu trabalho.</p>
+            <p className={styles.pDesc}>Objetivo de atuação na área de TI (Técnologia da Informação), administrativa, financeira, ou contábil, desenvolvendo e agregando conhecimento de todas as habilidades adquiridas ao longo de minha jornada profissional. Sempre disposto a receber conhecimento da organização que eu venha a me ingressar. Tenho interesse de construir uma carreira de sucesso, dessa forma contribuir para que a empresa alcance seus objetivos através do meu trabalho.</p>
 
 
             <h2>FORMAÇÃO</h2>
+
+            <div className='topicoDiv'>
+                <div className='flex'>
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEV0X_nGAbyrQ/company-logo_100_100/0/1575292768696?e=1673481600&v=beta&t=SQm_cpgyPYWvfx1bJslCnKxGDxuh4F8JqmKnZqui0Y4" alt="" />
+                    <h3>Cruzeiro do Sul Virtual</h3>
+                </div>
+                <p className={styles.periodo}>Bacharelado em Engenharia, Engenharia de Software · (setembro de
+                2022 - setembro de 2026)</p>
+                <p className={styles.pDesc}>O curso de Engenharia de Software prepara profissionais focados no desenvolvimento de novos programas de computador.</p>
+            </div>
+
+
             <h3>SENAC/MG – Programador Web</h3>
             <p className={styles.periodo}>Curso Programador Web, realizado no período de 01/02/2022 a 21/07/2022 na cidade de Sete Lagoas-MG.</p>
             <p className={styles.pDesc}>Conteúdo 01- Desenvolver aplicações web 02- Publicar e testar aplicações web 03- Realizar manutenção nas funcionalidades das aplicações web 04- Projeto Integrador Programador Web.</p>
