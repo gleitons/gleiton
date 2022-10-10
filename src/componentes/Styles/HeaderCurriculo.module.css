@@ -1,0 +1,19 @@
+.fotoPerfil {
+    width: 30%;
+}
+.infoCapa {
+    display: flex;
+    margin: auto;
+    
+}
+.infoCapa img {
+    width: 100%;
+}
+@media (max-width: 568px) {
+    .infoCapa {
+      display: block;
+    }
+    .fotoPerfil {
+        width: 100%;
+    }
+  }
