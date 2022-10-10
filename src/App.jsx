@@ -2,15 +2,14 @@
 import './App.css';
 import HeaderCurriculo from './componentes/HeaderCurriculo';
 import Objetivo from './componentes/Objetivo';
-
+import Curriculo from './componentes/Curriculo';
 
 
 
 function App() {
   return (
     <div className="papel">
-       <h1>Gleiton Aparecido Soares de Souza</h1>
-       <h2>Curriculum vitæ </h2>
+       <Curriculo />
       <div className='fundoVidro'>
         <HeaderCurriculo />
         <Objetivo />
