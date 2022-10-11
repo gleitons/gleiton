@@ -9,7 +9,7 @@ const HeaderCurriculo = () => {
                     {/* <div>
                     <img src="./imagens/fundo-giratorio-perfil.jpg" alt="" />
                     </div> */}
-                    <img src="https://avatars.githubusercontent.com/u/31367377" alt="" />
+                    <img loading="lazy" src="https://avatars.githubusercontent.com/u/31367377" alt="Gleiton aparecido Soares de Souza" />
                 </div>
                 <div className={styles.infoP}>
                     <h2>GLEITON APARECIDO SOARES DE SOUZA</h2>
