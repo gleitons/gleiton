@@ -79,6 +79,14 @@ const HeaderCurriculo = () => {
                             <p>Site: gleiton.com.br</p>
                             </div>
                         </a>
+                        <a href="https://goo.gl/maps/BL5Wk1CDyH4JVXGv5"
+                        target="_blank"
+                        rel='noopener noreferrer'>
+                            <div className={styles.Isociais}>
+                            <i class="bi bi-car-front-fill"></i>
+                            <p>CNH(Carteira de Habilitação): A/B</p>
+                            </div>
+                        </a>
                         <a href="./imagens/Gleiton - gleiton.com.br - Curriculo.pdf"
                         target="_blank"
                         rel='noopener noreferrer'>
