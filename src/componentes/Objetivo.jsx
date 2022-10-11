@@ -420,7 +420,7 @@ const Objetivo = () => {
             
             
 
-            <h2>PROJETOS E PORTFÓLIOS</h2>
+            <h2 id='portfolio'>PROJETOS E PORTFÓLIOS</h2>
 
 
         <div className='topicoDivD'>
