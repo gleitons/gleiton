@@ -1,0 +1,41 @@
+.cardC {
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: black 3px 0px 10px 0px;
+}
+.textA {
+    display: block;
+}
+input {
+    border: rgb(194, 194, 194) solid 1px;
+    margin: 5px 0px;
+    padding: 3px;
+    width: 100%;
+}
+textarea {
+    border: rgb(194, 194, 194) solid 1px;
+    margin: 5px 0px;
+    padding: 3px;
+    width: 100%;
+}
+.formEnvi {
+    background-image: linear-gradient(to right, white 40% , blue 0%);
+    display: flex;
+    margin: auto;
+    width: 98%;
+}
+.moduleItens {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    
+}
+.divF {
+    
+}
