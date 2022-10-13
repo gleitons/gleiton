@@ -609,6 +609,20 @@ const Objetivo = () => {
             <p className={styles.pDesc}>Gôndolas de Aço e Expositores para Lojas e Supermercados, Porta Pallets, móveis de aço, máquinas e equipamentos para estabelecimentos comerciais em Canoas...</p>
         </div> 
 
+        <div className='topicoDivD'>
+            <div className='flex'>
+            <img src={projetoP} alt={projetoP} />
+                <h3>https://www.refap.com.br//</h3>
+            </div>
+            <a href="https://www.refap.com.br/"
+            target="_blank"
+            rel='noopener noreferrer'>
+                <p className={styles.periodo}>https://www.refap.com.br/</p>
+            </a>
+            <p className={styles.pDesc}>REFAP - Refinaria Alberto Pasqualini
+</p>
+        </div> 
+
 
         
        

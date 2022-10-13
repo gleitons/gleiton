@@ -3,8 +3,8 @@ import styles from '../componentes/Styles/Formulario.module.css'
 const Formulario = () => {
     return (
         <div>
-            <div className={styles.formEnvi}>
-                <div className={styles.moduleItens}>
+            <div  className={styles.formEnvi}>
+                <div id='contato' className={styles.moduleItens}>
                     <div className={styles.cardC}>
                         <i class="bi bi-geo-alt-fill"></i>
                         <h3>Meu Endereço</h3>
@@ -29,16 +29,27 @@ const Formulario = () => {
                 </div>
                 <div className={styles.divF}>
                     <h2>Entre em Contato Conosco</h2>
-                    <div className={styles.textA}>
-                        <p>
-                            <input type="text" name="nome" id="nome" />
-                            </p>
-                        <p>
-                            <input type="email" name="email" id="email" />
-                            </p>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    </div>
+                    <form action="https://formsquash.io/f/QkyBijTFYgtsGr0tgIwc" method="POST">
+                        <div className={styles.textA}>
+                            <p>
+                                <input type="text" required name="nome" placeholder='insira seu Nome' id="nome" />
+                                </p>
+                            <p>
+                                <input type="email" required name="email" placeholder='Insira seu Melhor E-mail' id="email" />
+                                </p>
+                            <textarea name="message" id="message" cols="30" placeholder='deixe sua mensagem' rows="7"></textarea>
+                            <input className={styles.enviarB} type="submit" value="ENVIAR" />
+                            <div className={styles.obrigado} id="obridado" >
+                            <h4>OBRIGADO, SEU FORMULARIO FOI ENVIADO COM SUCESSO</h4>
+                            </div>
+                        </div>
+                        
+                    </form>
                 </div>
+               
+            </div>
+            <div className={styles.botaoVoltar}>
+            <a href="#inicio"><i class="bi bi-arrow-up-circle-fill"></i></a>
             </div>
         </div>
     )
