@@ -6,19 +6,19 @@ const Formulario = () => {
             <div  className={styles.formEnvi}>
                 <div id='contato' className={styles.moduleItens}>
                     <div className={styles.cardC}>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <h3>Meu Endereço</h3>
-                        <p>Endereço: Rua Pirapó, 514, 001 - Bairro Igara, Canoas – RS</p>
+                    <i class="bi bi-person-circle"></i>
+                        <h3>Nome Completo</h3>
+                        <p>GLEITON APARECIDO SOARES DE SOUZA</p>
                     </div>
                     <div className={styles.cardC}>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <h3>Meu Endereço</h3>
-                        <p>Endereço: Rua Pirapó, 514, 001 - Bairro Igara, Canoas – RS</p>
+                    <i class="bi bi-envelope-paper-fill"></i>
+                        <h3>E-mail</h3>
+                        <p>E-mail: gleiton.adm@gmail.com</p>
                     </div>
                     <div className={styles.cardC}>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <h3>Meu Endereço</h3>
-                        <p>Endereço: Rua Pirapó, 514, 001 - Bairro Igara, Canoas – RS</p>
+                    <i class="bi bi-telephone-outbound-fill"></i>
+                        <h3>Telefone</h3>
+                        <p>Telefone: (51) 98065-2808</p>
                     </div>
                     <div className={styles.cardC}>
                         <i class="bi bi-geo-alt-fill"></i>
