@@ -5,22 +5,25 @@ import Objetivo from '../componentes/Objetivo';
 import Curriculo from '../componentes/Curriculo';
 import Formulario from '../componentes/Formulario';
 
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Obrigado from './Obrigado';
 
 function App() {
   return (
     <div className="papel">
+      <Router>
+        <Routes>
+          <Route path='/obrigado' element={<Obrigado/>}/>
+        </Routes>
+      </Router>
        <Curriculo />
       <div className='fundoVidro'>
         <HeaderCurriculo />
         <Objetivo />    
       </div>
       <Formulario />
-      <Routes>
-        <Route path='./obrigado' element={<Obrigado/>}/>
-      </Routes>
+      
     </div>
     
   );
