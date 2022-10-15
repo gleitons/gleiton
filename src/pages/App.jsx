@@ -14,7 +14,7 @@ function App() {
     <div className="papel">
       <Router>
         <Routes>
-          <Route path='/obrigado' element={<Obrigado/>}/>
+          <Route path='https://gleiton.com.br/obrigado' element={<Obrigado/>}/>
         </Routes>
       </Router>
        <Curriculo />
