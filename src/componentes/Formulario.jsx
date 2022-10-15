@@ -32,12 +32,12 @@ const Formulario = () => {
                     <form action="https://formsquash.io/f/QkyBijTFYgtsGr0tgIwc" method="POST">
                         <div className={styles.textA}>
                             <p>
-                                <input type="text" required name="nome" placeholder='insira seu Nome' id="nome" />
+                                <input type="text" required name="01_nome" placeholder='insira seu Nome' id="nome" />
                                 </p>
                             <p>
-                                <input type="email" required name="email" placeholder='Insira seu Melhor E-mail' id="email" />
+                                <input type="email" required name="02_email" placeholder='Insira seu Melhor E-mail' id="email" />
                                 </p>
-                            <textarea name="message" id="message" cols="30" placeholder='deixe sua mensagem' rows="7"></textarea>
+                            <textarea name="message" id="03_Mensagem" cols="30" placeholder='deixe sua mensagem' rows="7"></textarea>
                             <input className={styles.enviarB} type="submit" value="ENVIAR" />
                             <div className={styles.obrigado} id="obridado" >
                             <h4>OBRIGADO, SEU FORMULARIO FOI ENVIADO COM SUCESSO</h4>
