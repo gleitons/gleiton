@@ -1,6 +1,6 @@
 import styles from './Styles/Objetivo.module.css'
 
-const Objetivo = () => {
+const Objetivo = ({nomeR}) => {
     const raimundo = "./imagens/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png"
     const icaUFMG = "./imagens/ica-ufmg.png"
     const ipr = "./imagens/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png"
@@ -16,7 +16,7 @@ const Objetivo = () => {
             <div className="topicoDiv">
                 <p className={styles.pDesc}>Objetivo de atuação na área de TI (Tecnologia da Informação), administrativa, financeira, ou contábil, desenvolvendo e agregando conhecimento de todas as habilidades adquiridas ao longo de minha jornada profissional. Sempre disposto a receber conhecimento da organização que eu venha a me ingressar. Tenho interesse de construir uma carreira de sucesso, dessa forma contribuir para que a empresa alcance seus objetivos através do meu trabalho.</p>
             </div>
-
+            
 
             <h2>FORMAÇÃO</h2>
 
