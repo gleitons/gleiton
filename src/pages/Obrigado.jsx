@@ -1,4 +1,5 @@
 import styles from '../componentes/Styles/Obrigado.module.css'
+import Formulario from '../componentes/Formulario';
 
 function Obrigado() {
     return (
@@ -9,6 +10,7 @@ function Obrigado() {
             <p>Caso queira, pode entrar em contato comigo agora mesmo, meu whatsapp está aqui, nesta mesma página abaixo, estou online agora, vamos conversar</p>
             <a href="/"><button>Clique aqui para fechar</button></a>
         </div>
+        <Formulario />
         </>
     )
 }

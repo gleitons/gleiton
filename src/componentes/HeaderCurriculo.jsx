@@ -9,7 +9,7 @@ const HeaderCurriculo = () => {
                     {/* <div>
                     <img src="./imagens/fundo-giratorio-perfil.jpg" alt="" />
                     </div> */}
-                    <video width="100%" height="100%" autoplay controls loop muted>
+                    <video width="100%" height="100%" autoplay loop muted controls>
                     <source src="../imagens/gleiton-soares-animado.mp4" type="video/mp4" />   
                     <img loading="lazy" src="../imagens/gleiton-soares-melhorado.jpg" alt="Gleiton aparecido Soares de Souza" />                 
                     <img loading="lazy" src="https://avatars.githubusercontent.com/u/31367377" alt="Gleiton aparecido Soares de Souza" />

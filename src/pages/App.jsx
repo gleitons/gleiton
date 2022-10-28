@@ -1,14 +1,15 @@
 
 import '../App.css';
 import Curriculo from '../componentes/Curriculo';
-import Formulario from '../componentes/Formulario';
-// import MenuTop from '../componentes/MenuTop';
+
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Obrigado from './Obrigado';
 import Home from './Home';
+import EstudosBanrisul from './EstudosBanrisul';
+
 
 function App() {
   return (
@@ -17,13 +18,14 @@ function App() {
       <Curriculo />
       <Router>
         <Routes>
-          <Route path='/Obrigado' element={<Obrigado/>}/>
-          <Route path='/' element={<Home/>}/>          
+          <Route path="obrigado" element={<Obrigado/>}/>
+          <Route path="estudos-banrisul" element={<EstudosBanrisul/>}/> 
+          <Route path="/" element={<Home/>}/>          
         </Routes>
       </Router>
        
       
-      <Formulario />
+      
       
     </div>
     

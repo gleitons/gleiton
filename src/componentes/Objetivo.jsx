@@ -1,4 +1,5 @@
 import styles from './Styles/Objetivo.module.css'
+import Formulario from './Formulario'
 
 const Objetivo = ({nomeR}) => {
     const raimundo = "./imagens/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png"
@@ -628,9 +629,11 @@ const Objetivo = ({nomeR}) => {
        
         
         
-
+        <Formulario />
 
         </div>
+       
     )
+    
 }
 export default Objetivo;
