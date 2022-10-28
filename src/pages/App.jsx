@@ -18,8 +18,8 @@ function App() {
       <Curriculo />
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="obrigado" element={<Obrigado/>}/>
-          <Route path="estudos-banrisul" element={<EstudosBanrisul/>}/> 
+          <Route path="/obrigado" element={<Obrigado/>}/>
+          <Route path="/estudos-banrisul" element={<EstudosBanrisul/>}/> 
           <Route path="/" element={<Home/>}/>          
         </Routes>
       </Router>
