@@ -16,8 +16,9 @@ function App() {
   return (
     <div className="papel">
       {/* <MenuTop/> */}
+     
+      <Router >
       <Curriculo />
-      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/obrigado" element={<Obrigado/>}/>
           <Route path="/estudos-banrisul" element={<EstudosBanrisul/>}/> 

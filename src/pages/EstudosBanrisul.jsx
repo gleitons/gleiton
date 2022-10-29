@@ -3,7 +3,7 @@ import styles from '../componentes/Styles/EstilosEstudo.module.css'
 import { Link } from "react-router-dom";
 const EstudosBanrisul = () => {
     return (
-        <div className="estudos">
+        <div className={styles.estudos}>
         <HistoricoButton/>
         <h1>Estudos Banrisul</h1>
         <div className={styles.conhecimentos}>
@@ -19,11 +19,18 @@ const EstudosBanrisul = () => {
         <div className={styles.conhecimentos}>
         <h2>Conhecimentos Específicos</h2>
         <ul>
-        <Link to="/estudos-banrisul/conhecimentos-bancarios" relative="path">
+        <Link className={styles.alink}to="/estudos-banrisul/conhecimentos-bancarios" relative="path">
             <li>Conhecimentos bancários</li>
         </Link>
-        <li>Atendimento ética e diversidade</li>
-        <li>Técnica de vendas</li>
+        <Link className={styles.alink}to="/estudos-banrisul/conhecimentos-bancarios" relative="path">
+            <li>Atendimento ética e diversidade</li>
+        </Link>
+        <Link className={styles.alink}to="/estudos-banrisul/conhecimentos-bancarios" relative="path">
+            <li>Técnica de vendas</li>
+        </Link>
+       
+        <li></li>
+        <li></li>
         </ul>
         </div>
         

@@ -1,9 +1,12 @@
 import styles from './Styles/HeaderCurriculo.module.css'
 
+
 const HeaderCurriculo = () => {
     return (
+        <>
+         
         <div /*className={styles.sectionHeader}*/>
-           
+          
             <div className={styles.infoCapa}>
                 <div className={styles.fotoPerfil}>
                     {/* <div>
@@ -114,6 +117,9 @@ const HeaderCurriculo = () => {
                 
             </div>
         </div>
+        
+        </>
+        
     )
 }
 export default HeaderCurriculo;
